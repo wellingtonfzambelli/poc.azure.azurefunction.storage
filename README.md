@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f3e2feaa-94bd-489b-a0d0-ec419bccfc1e)# About
+# About
 This project demonstrates the use of Azure Functions Http Trigger + Azure Table Storage + Azure Blob Storage.
 
 # Stacks of this project
