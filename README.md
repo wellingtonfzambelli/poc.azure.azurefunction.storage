@@ -2,12 +2,12 @@
 This project demonstrates the use of Azure Functions Http Trigger + Azure Table Storage + Azure Blob Storage.
 
 # Stacks of this project
-.NET 8
-Azure Function
-Azure Blob Storage
-Azure Table Storage
-Postman _(for API testing)_
-Visual Studio 2022
+- .NET 8
+- Azure Function
+- Azure Blob Storage
+- Azure Table Storage
+- Postman _(for API testing)_
+- Visual Studio 2022
 
 # Azure Server settings
 Go to Azure Server and create a new storage called "poccustomer"
