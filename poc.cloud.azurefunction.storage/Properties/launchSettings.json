@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "poc.cloud.azurefunction.storage": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7173",
+      "launchBrowser": false
+    }
+  }
+}
