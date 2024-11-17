@@ -1,4 +1,4 @@
-# About
+![image](https://github.com/user-attachments/assets/f3e2feaa-94bd-489b-a0d0-ec419bccfc1e)# About
 This project demonstrates the use of Azure Functions Http Trigger + Azure Table Storage + Azure Blob Storage.
 
 # Stacks of this project
@@ -15,3 +15,6 @@ Go to Azure Server and create a new storage called "poccustomer"
 
 Inside the storage, click on menu "Container" and create  a new container named "customer-images-container"
 ![image](https://github.com/user-attachments/assets/01939cdb-e069-4726-acf2-d2c911fa9af8)
+
+Still inside the storage, click on menu "Data storage" -> "Tables" and create a new Azure Table Storage named "TbCustomer"
+![image](https://github.com/user-attachments/assets/08e2756d-3492-485a-97b9-a9babdf533a6)
