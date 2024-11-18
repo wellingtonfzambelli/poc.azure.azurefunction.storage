@@ -18,3 +18,12 @@ Inside the storage, click on menu "Container" and create  a new container named 
 
 Still inside the storage, click on menu "Data storage" -> "Tables" and create a new Azure Table Storage named "TbCustomer"
 ![image](https://github.com/user-attachments/assets/08e2756d-3492-485a-97b9-a9babdf533a6)
+
+# Visual Studio
+Create Azure Function Http Trigger
+![image](https://github.com/user-attachments/assets/f2157e1f-03cb-4ee1-b291-b277eea53dea)
+
+Save and upload
+![image](https://github.com/user-attachments/assets/d3cce700-fd5c-48c4-a5b3-86aee3b524f1)
+
+# Visual Studio Publish
