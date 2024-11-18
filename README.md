@@ -38,3 +38,14 @@ Save and upload
 ![image](https://github.com/user-attachments/assets/9c68abb2-00ab-4ba1-afab-1ea886084f97)
 ![image](https://github.com/user-attachments/assets/1b5fea2e-e30c-44d0-ae4f-48bdbe729128)
 
+# Testing
+Sending the request by postman
+![image](https://github.com/user-attachments/assets/52073974-34ff-4250-90e0-2e40cdb23175)
+
+Azure Table Storage 
+![image](https://github.com/user-attachments/assets/04af9739-ec30-4e57-8825-465095350151)
+
+Azure Blob Storage
+![image](https://github.com/user-attachments/assets/bc6b3f59-ceae-4b12-bee3-f2cbedc97251)
+
+
