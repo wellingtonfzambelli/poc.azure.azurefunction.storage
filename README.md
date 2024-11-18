@@ -33,3 +33,7 @@ Save and upload
 ![image](https://github.com/user-attachments/assets/d3cce700-fd5c-48c4-a5b3-86aee3b524f1)
 
 # Visual Studio Publish
+![image](https://github.com/user-attachments/assets/1b0df9d2-dab2-49b8-9f07-70b7d9f79826)
+![image](https://github.com/user-attachments/assets/145f118b-6d83-4da8-af30-0cac8e0de52b)
+![image](https://github.com/user-attachments/assets/9c68abb2-00ab-4ba1-afab-1ea886084f97)
+
