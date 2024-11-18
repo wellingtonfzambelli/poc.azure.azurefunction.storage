@@ -44,12 +44,11 @@ public sealed class CustomerFunction
             file is null)
             return new BadRequestObjectResult("Image file is missing.");
 
-
         var customer = JsonConvert.DeserializeObject<CreateCustomerRequestDto>(customerData);
 
-        string imageUri = await UploadFileGptAsync(file, ct);
+        string imageUri = await UploadFileAzureBlobAsync(file, ct);
 
-        await SaveCustomerAsync(customer, imageUri, ct);
+        await SaveCustomerAzureTableAsync(customer, imageUri, ct);
 
         return new OkObjectResult(new
         {
@@ -59,7 +58,7 @@ public sealed class CustomerFunction
         });
     }
 
-    private async Task SaveCustomerAsync(CreateCustomerRequestDto customer, string imageUri, CancellationToken ct)
+    private async Task SaveCustomerAzureTableAsync(CreateCustomerRequestDto customer, string imageUri, CancellationToken ct)
     {
         var tableClient = new TableClient(_connectionString, "TbCustomer");
 
@@ -79,7 +78,7 @@ public sealed class CustomerFunction
         );
     }
 
-    private async Task<string> UploadFileGptAsync(IFormFile file, CancellationToken ct)
+    private async Task<string> UploadFileAzureBlobAsync(IFormFile file, CancellationToken ct)
     {
         string blobContainerName = Environment.GetEnvironmentVariable("ContainerName");
 
@@ -88,7 +87,9 @@ public sealed class CustomerFunction
 
         // await containerClient.CreateIfNotExistsAsync(); be careful with this method
 
-        var blobClient = containerClient.GetBlobClient(file.FileName);
+        var blobName = $"{Guid.NewGuid()}-{file.FileName}";
+        var blobClient = containerClient.GetBlobClient(blobName);
+
         using (var stream = file.OpenReadStream())
             await blobClient.UploadAsync(stream, overwrite: true);
 
