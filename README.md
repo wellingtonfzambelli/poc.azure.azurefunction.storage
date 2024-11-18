@@ -26,6 +26,9 @@ Create Azure Function Http Trigger
 Add Azure.Data.Tables and Azure.Storage.Blobs
 ![image](https://github.com/user-attachments/assets/1e8a5be9-a878-46ba-90bb-b86c95770b51)
 
+Customer Entity Azure Table Storage
+![image](https://github.com/user-attachments/assets/21ae91ce-20b6-4594-b875-f5b62ae328ed)
+![image](https://github.com/user-attachments/assets/5c0c5e7b-fd18-484a-b1c2-fa87c4006330)
 
 
 Save and upload
