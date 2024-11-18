@@ -23,7 +23,13 @@ Still inside the storage, click on menu "Data storage" -> "Tables" and create a 
 Create Azure Function Http Trigger
 ![image](https://github.com/user-attachments/assets/f2157e1f-03cb-4ee1-b291-b277eea53dea)
 
+Add Azure.Data.Tables
+![image](https://github.com/user-attachments/assets/a13f40eb-b399-4409-b421-9ac71939f969)
+![image](https://github.com/user-attachments/assets/c6c06ad4-da92-4425-b76f-3a03a5cc5b3d)
+
+
 Save and upload
+
 ![image](https://github.com/user-attachments/assets/d3cce700-fd5c-48c4-a5b3-86aee3b524f1)
 
 # Visual Studio Publish
